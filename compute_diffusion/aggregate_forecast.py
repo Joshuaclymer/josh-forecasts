@@ -73,7 +73,7 @@ fig, ax = plt.subplots(figsize=(12, 6))
 
 # Plot the Average (Final Forecast)
 bars = ax.bar(range(len(top_15_avg)), top_15_avg, 
-        color='lightgreen', edgecolor='none', width=BAR_WIDTH)
+        color='skyblue', edgecolor='none', width=BAR_WIDTH)
 
 # Add value labels on top of each bar
 for i, bar in enumerate(bars):
